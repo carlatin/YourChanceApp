@@ -1,1 +1,221 @@
 /* Empty. Add your own CSS if you like */
+.fondologin{
+  background: #0C1C2B;
+  height: 100%;
+}
+
+.filalogin{
+  justify-content:;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 35px;
+}
+
+.espacio{
+  border-radius: 20px;
+  margin-top:35% !important;
+  height: 300px;
+  width: 100%;
+  background: #14181B !important;
+  border: 2px solid #9ADA0F;
+}
+
+.centrado{
+  justify-content:;
+  align-items: center;
+  display: flex;
+  height: auto;
+}
+.logo{
+  margin-top:-100px !important;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 4px solid #9ADA0F;
+  height: 150px;
+  width: 150px;
+}
+form{
+  padding-left: 30px !important;
+    padding-right: 30px !important;
+
+}
+
+input{
+  width: 100%;
+  background: none;
+  color: #ffffff !important;
+  border-bottom: 2px solid #9ADA0F !important;
+
+}
+input:hover{
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid #9ADA0F;
+  background:#3D464D !important;
+  color: #fff;
+}
+.aceptar{
+  background:#3D464D !important;
+  color: #ccc;
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  margin-left: 30px;
+  border: none;
+  height: 30px;
+
+}
+/*inicio codigo de slider que se utilizo para el tutorial*/
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+
+.slides {
+  /*  margin-top: 30% !important;*/
+    padding: 0;
+    width: 100%;
+    height: 430px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid #9ADA0F;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 10%;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 80pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+  margin-left: 50px;
+	width: 60%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 10%;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-4:checked ~ .nav-dots label#img-dot-10,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.tutoimg{
+    width: 100% !important;
+}
+/*fin codigo del slider*/
+.contenedortutorial{
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex;
+  background: #14181B;
+}
+.siguiente{
+  margin-left: 74%;
+  border-radius: 30px;
+  opacity: 0.5;
+  background: #0C1C2B;
+  color: #fff;
+  border: 1px solid #9ADA0F;
+}
+.espaciodecorado{
+  height: 30px !important;
+  width: 100%;
+  background:#0E738B;
+}
+.espaciodecorado2{
+  height: auto !important;
+  width: 100%;
+  background:#ccc;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
