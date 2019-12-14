@@ -71,6 +71,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 url: '/tutorial',
 templateUrl:'templates/tutorial.html'
 })
+.state("registro",{
+url: '/registro',
+templateUrl:'templates/registro.html'
+})
     .state('tab.chat-detail', {
       url: '/chats/:chatId',
       views: {
@@ -93,6 +97,6 @@ templateUrl:'templates/tutorial.html'
   
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/registro');
 
 });
